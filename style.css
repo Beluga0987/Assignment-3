@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: "Staatliches", sans-serif;
+font-size: 96px;
+-webkit-text-fill-color: white; 
+-webkit-text-stroke-width: 0.1px;
+-webkit-text-stroke-color: black;
+}
+
+   div#wrapperHeader div#header {
+    width:1000px;
+    height:100px;
+    margin-left: 60px;
+   }
+   
+   div#wrapperHeader div#header img {
+    width:413px; 
+    height:100px; 
+    margin:left 10px;
+   }
+
+section{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.one{
+    background-image: url("tove\ background.png");
+    background-repeat: no-repeat;
+    background-size: 1621px 1130px;
+    background-position: center;
+    background-color:rgb(255, 255, 255);
+}
+
+.two{
+    background-image: url("aboutbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 1621px 1130px;
+    background-position: center;
+    background-color:aliceblue;
+}
+
+.three{
+    background-image: url("portraitbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 1621px 1130px;
+    background-position: center;
+    background-color:aliceblue;
+}
+
+.four{
+    background-image: url("mandmbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 1621px 1130px;
+    background-position: center;
+    background-color:aliceblue;
+}
+
+.five{
+    background-image: url("mandmbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 1621px 1130px;
+    background-position: center;
+    background-color:aliceblue;
+}
+
+.six{
+    background-image: url("contactsbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 1621px 1130px;
+    background-position: center;
+    background-color:aliceblue;
+}
