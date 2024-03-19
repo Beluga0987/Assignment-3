@@ -12,39 +12,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<div id="wrapperHeader">
+<nav id="wrapperHeader">
     <div id="header">
-     <img src="tovejansson.sign.png" alt="logo" />
+    <!-- dont use . in files unless it is defining the file type like .png it confuses the computer use a - instead
+    not /public/imgs/tovejansson.sign.png but /public/imgs/tovejansson-sign.png
+    -->
+        <img class='logo' src="/public/imgs/tovejansson-sign.png" alt="logo" />
     </div> 
-   </div>
+</nav>
 
 <body>
 
 <div class="container">
 
     <section class="one">
-
-        </section>
+        <div class="lrg-imgContainer">
+            <img src="/public/imgs/tove-background.png">
+        </div>
+    </section>
 
     <section class="two">
-        <h1>About</h1>
-        </section>
+        <div class="title">
+            <h1>About</h1>
+        </div>
+        <div class="col-30">
+            <div class="imgContainer">
+                    <img src="/public/imgs/aboutportrait.jpg"/>
+            </div>
+        </div>
+
+
+    </section>
 
     <section class="three">
-        <h1>Self portraits</h1>
-        </section>
+        <div class="title">
+            <h1>Self portraits</h1>
+        </div>
+    </section>
 
     <section class="four">
         <h1>Moomins</h1>
-        </section>
+    </section>
 
     <section class="five">
         <h1>Book & Magazine covers</h1>
-        </section>
+    </section>
 
     <section class="six">
         <h1>Contacts</h1>
-        </section>
+    </section>
 
 </body>
 
